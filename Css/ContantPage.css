@@ -1,0 +1,159 @@
+*{
+    margin: 0px; padding: 0px;
+}
+body{ width: 100%; height: 230vh;}
+html{ scroll-behavior: smooth;}
+#navigation_bar{
+    width: 100%; height: 15vh; position: fixed;  background-color: white;
+    display: flex; border-bottom: 2px solid black;
+    justify-content: flex-end; align-items: center; z-index: 5;
+}
+#logo_title{
+     margin: 0.5%; margin-right: 350px;
+}
+.bton{
+    width: 100px;
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none; outline: none; padding: 3px;
+    background-color: white; color: blue;
+    margin-left: 50px; border-radius: 15px;
+}
+.last{ margin-right:200px;}
+#opt{ 
+    width: 110px; height: 100px; background-color:white;
+     position: absolute;  top:70px; right:520px ;
+     display: flex; flex-direction: column; border-radius: 5px;
+     justify-content: space-around; align-items: center;
+     border: 1px solid black; display: none; box-shadow: 1px 1px 10px black;
+    }
+.About{
+    width: 80%; height: 30%; border: none; outline: none;
+    font-size: 20px; font-weight: 700; background-color: white;  
+}
+.About:hover{ transform: scale(1.1);}
+.Au:hover+#opt{ display: flex;}
+#opt:hover{display: flex; }
+.bton:hover{   transform: scale(1.2); }
+
+#container{
+    width: 80%; height: 50vh;
+    position: absolute; left: 10%; top: 20%;
+}
+#contactPic{
+    width: 40%; height: 100%;  float: left;
+    background-image: url(/Assets/gifs/contact\ us.gif);
+    background-repeat: no-repeat; background-size: cover;
+}
+#info001{
+    width: 55%; height: 50%;  float: left;
+    font-size: 50px; font-weight: 900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left; padding-top: 50px; padding-left: 10px;
+}
+#info002{
+    width: 60%; height: 50%;  float: left; 
+    font-size: 18px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#map{
+    width: 80%; height: 40vh;  border: 3px solid black;
+    border-radius: 10px;
+    position: absolute; top: 600px; left: 10%; 
+}
+#container001{
+    width: 80%; height: 70vh; 
+    position: absolute; top: 130%; left: 10%;
+}
+#address{
+    width: 48%; height: 100%; color: white; float: left;
+    text-align: left; padding-left: 20px; border-radius: 15px;
+    background-color: black; border: 5px solid aqua;
+}
+#dash{ 
+    width: 100px; height: 20px; background-color: aqua; margin-top: 20px;margin-bottom: 20px;
+}
+span{ color: red;}
+label{ font-size: 20px; margin-left: -50px; margin-top: 10px;}
+.check{
+    width: 300px; height: 10%; margin-left: -50px;
+    margin-top: 10px;  margin-bottom: 10px;
+}
+#checkbox{
+    margin-top: 13px;
+    margin-left: 7px;
+}
+#user{
+    width:47%; height: 100%; float: left;
+    border-radius: 5px; border: 5px solid black; 
+    display: flex; flex-direction: column;justify-content: space-around;
+    align-items: center; 
+}
+#tester{
+    width: 60%; height: 10%; border: 1px solid black;
+    background-image: url(/Assets/Images/robo3.0.png);
+    border-radius: 3px;
+    background-repeat: no-repeat; background-size: cover;
+}
+#send{
+    width: 300px; margin-left: -50px; 
+    height: 30px; font-size: 20px; background-color: blue;
+    border: 2px solid black; outline: none;
+    border-radius: 5px;
+    transition: all 2s;
+}
+#send:hover{
+    background-color: rgb(165, 165, 220);
+    color: rgb(67, 121, 14);
+}
+
+
+#clock{
+    width: 80px; height: 80px; background-color: green;
+    position: absolute; right: 10px; border-radius: 50%;
+    top: 5px;
+    border: 5px solid green;
+    background-image: url(/Assets/gifs/clock.jpg);
+    background-size: contain;
+}
+#por{
+    width: 80px; height: 80px; background-color: chartreuse;
+    position: absolute; border-radius: 50%;
+    background-image: url(/Assets/Images/moon.png);
+    background-repeat: no-repeat; background-size: cover;
+    border: 5px solid white;
+    bottom: 10px; right: 10px;
+}
+
+
+
+#container002{
+    width: 100%; height: 50vh; position: relative; top: 90%;
+    background-color: black;
+    display: flex; justify-content: space-around; 
+    flex-direction: row; align-items: center;
+}
+.box{
+    width: 20%; height: 80%; 
+     color: antiquewhite;
+     text-align: left;padding-top: 40px;
+    font-size: 25px; font-size: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one{
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    padding: 20px;   
+}
+#ou{
+    position: absolute; top: 450px;
+    font-size: 20px; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.la{ position: relative; left: -40px;}
+.logo{
+    width: 25px; height: 25px;background-color: white; position: absolute;
+    margin-left: 120px; margin-top: -27px;
+}
+.tw{  background-image: url(/Assets/Images/Linked_logo.png); background-size: cover;}
+.li{background-image: url(/Assets/Images/twitter_logo.png); background-size: cover; }
+

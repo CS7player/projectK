@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="/Assets/Images/logo.jpg">
+    <link rel="stylesheet" href="/Css/LoginPage.css">
+    <script src="/JavaScript/Checker.js"></script>
+</head>
+<body>
+    <div id="navigation_bar">
+        <img id="logo_title" src="/Assets/Images/logo_name.png" alt="Company logo">
+        <a href="/Html/HomePage.html"><button class="bton">Home</button></a>
+        <button class="bton Au">About Us</button>
+        <div id="opt">
+            <a href="/Html/visionPage.html"><button class="About">Vision</button></a>
+            <a href="/Html/ContantPage.html"> <button class="About">Contant</button></a>  
+        </div>
+        <a href="/Html/SignUp.html"><button class="bton">Sign Up</button></a>
+        <a href="/Html/LoginPage.html"><button class="bton last">Login</button></a>
+    </div>
+    <div id="Container">
+        <h1 id="shower">Login</h1>
+        <div id="content">
+        <input type="text" id="UserId" class="inputs" placeholder="Enter User_Name" oninput="passer()">
+        <input type="text" id="UserPass" class="inputs" placeholder="Enter Password">
+    </div>
+    <input id="LoginPage" type="submit" value="Login" disabled onclick="verify()">
+    </div>
+    
+</body>
+</html>

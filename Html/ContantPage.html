@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contant Page</title>
+    <link rel="icon" href="/Assets/Images/logo.jpg">
+    <link rel="stylesheet" href="/Css/ContantPage.css">
+    <script src="/JavaScript/Checker.js" defer></script>
+</head>
+<body>
+    <div id="navigation_bar">
+        <img id="logo_title" src="/Assets/Images/logo_name.png" alt="Company logo">
+        <a href="/Html/HomePage.html"><button class="bton">Home</button></a>
+        <button class="bton Au">About Us</button>
+        <div id="opt">
+        <a href="/Html/visionPage.html"><button class="About">Vision</button></a>
+        <a href="#top"> <button class="About">Contant</button></a>  
+        </div>
+        <a href="/Html/SignUp.html"><button class="bton">Sign Up</button></a>
+        <a href="/Html/LoginPage.html"><button class="bton last">Login</button></a>
+        <a href="/Html/clock.html"><div id="clock"></div></a>   
+    </div>
+    <div id="container">
+        <div id="contactPic"></div>
+        <div id="info001">Let's talk technology, <br> let's talk solutions</div>
+        <div id="info002">&nbsp; We are always looking for new ideas and new partnerships. Whether <br>
+            &nbsp;  you are interested in hearing from us about our offerings,<br> &nbsp;  partnering with us, joining us or doing business with us – contact us to see how we <br>
+            &nbsp; can help you.</div>
+    </div>
+    <iframe src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+    frameborder="0" id="map"></iframe>
+
+    <div id="container001">
+        <div id="address">
+            <br><br><br>
+            <h1>US Office</h1>
+            <br><br>
+            <h3>300 Carnegie Center Dr,  Suite 150 <br>
+                Princeton, NJ 08540 <br>
+                Email: infous@acunor.com</h3>
+                <div id="dash"></div>
+            <h1>India Office</h1>
+            <br><br>
+            <h3>Manjeera Trinity Corporate, JNTU Rd, <br>
+                 K P H B Phase 3, Kukatpally, <br>
+                Hyderabad, Telangana 500072 <br>
+                Email: infoindia@acunor.com</h3>
+        </div>
+        <div id="user">
+            <form action="">
+                <label for="name">Name <span>*</span></label> <br>
+                <input class="check" id="name" type="text" required><br>
+                <label for="mail">Email <span>*</span></label><br>
+                <input class="check" id="mail" type="text" required><br>
+                <label for="msg">Message <span>*</span></label><br>
+                <textarea  class="check" name="" id="msg" cols="20" rows="10" required
+                ></textarea><br>
+                <div id="tester"> 
+                    <input id="checkbox" type="checkbox">
+                </div><br>
+                <input id="send" type="submit" value="send" onclick="winner()">
+            </form>
+            <marquee id="ou" behavior="slide" direction="right" width="40%" ></marquee>
+        </div>
+    </div>
+
+
+
+
+    <div id="container002">
+        <div class="box one">
+            <a href="/Html/HomePage.html"><button class="bton">Home</button></a>
+            <a href="#top"><button class="bton">Vision</button></a>
+            <a href="/Html/ContantPage.html"> <button class="bton">Contant</button></a>  
+            <a href="/Html/SignUp.html"><button class="bton">Sign Up</button></a>
+            <a href="/Html/LoginPage.html"><button class="bton last">Login</button></a>
+        </div>
+        <div class="box two ">           
+            Locations : <br><br>
+            USA    &nbsp;    India &nbsp;    UK <br><br>
+            LATAM  &nbsp;   APAC
+        </div>
+        <div class="box three">
+            Follow Us On:  <br><br>
+            <a href="https://www.linkedin.com/feed/"><button  class="bton la">linkedin</button><div class="logo tw"></div><br><br></a>
+            <a href="https://twitter.com/i/flow/login"><button  class="bton la">Twitter</button><div class="logo li"></div></a>   
+        </div>
+        <a href="#top"><div id="por" onclick="dmode()"></div></a>
+    </div>
+    
+</body>
+</html>

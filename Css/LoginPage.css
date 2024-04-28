@@ -1,0 +1,77 @@
+*{
+    margin: 0px; padding: 0px;
+}
+body{ width: 100%; height: 80vh;}
+#navigation_bar{
+    width: 100vw; height: 15vh;
+    display: flex; border-bottom: 2px solid black;
+    justify-content: flex-end; align-items: center;
+}
+#logo_title{
+    margin: 0.5%; margin-right: 350px;
+}
+.bton{
+    width: 100px;
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none; outline: none; padding: 3px;
+    background-color: white; color: blue;
+    margin-left: 50px;
+}
+.last{  margin-right:200px;}
+.bton:hover{transform: scale(1.2);}
+#opt{ 
+    width: 110px; height: 100px; background-color:white;
+     position: absolute;  top:70px; right:520px ; z-index: 3;
+     display: flex; flex-direction: column; border-radius: 5px;
+     justify-content: space-around; align-items: center;
+     border: 1px solid black; display: none; box-shadow: 1px 1px 10px black;
+    }
+.About{
+    width: 80%; height: 30%; border: none; outline: none;
+    font-size: 20px; font-weight: 700; background-color: white;  
+}
+.About:hover{ transform: scale(1.1);}
+.Au:hover+#opt{ display: flex;}
+#opt:hover{display: flex; }
+h1{ 
+    font-size: 70px;
+}
+#Container{
+    width: 500px; height: 500px; 
+    background-repeat: no-repeat; background-size: cover;
+    position: relative; left: 500px; top: 40px; border-radius: 15px;
+    display: flex; flex-direction: column; 
+    justify-content: space-evenly; align-items: center;
+    box-shadow: 1px 1px 10px black;
+    animation: mover 1s 1 forwards;
+}
+#content{
+    width: 300px; height: 200px; 
+    display: flex; flex-direction: column;  justify-content: space-evenly;
+}
+.inputs{
+    width: 100%; height: 20%; border: none; outline: none;
+    border-bottom: 3px solid black; text-align: center;
+    border-radius: 5px; font-size: 20px; letter-spacing: 0.5px;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#shower{ text-shadow: 4px 4px 10px black;}
+#LoginPage{
+    font-size: 30px; padding: 10px; border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.inputs:hover ,#SignUp:hover,#LoginPage:hover{
+    transform: scale(1.1);
+}
+@keyframes mover {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
